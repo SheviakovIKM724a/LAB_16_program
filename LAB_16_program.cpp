@@ -10,7 +10,7 @@ private:
     char number[10];       // Номер автобуса
     char time[6];          // Час відправлення у форматі "HH:MM"
     int seats;             // Кількість вільних місць
-
+     
 public:
     // Метод для встановлення значень
     void set(const char* dest, const char* num, const char* t, int s) {
